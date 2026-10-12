@@ -1,0 +1,10 @@
+a = int(3)
+b = int(5)
+suma = a + b
+roznica = a - b
+mnozenie = a * b
+dzielenie = a / b
+print(f'{a}+{b}={suma}')
+print(f'{a}-{b}={roznica}')
+print(f'{a}*{b}={mnozenie}')
+print(f'{a}/{b}={dzielenie}')
