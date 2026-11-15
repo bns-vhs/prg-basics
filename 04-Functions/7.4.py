@@ -14,3 +14,25 @@ in_range = within_range(occurrences,x,y)
 result= 'yes' if in_range else 'no'
 print(f"Litera '{target_letter}' występuje w podanym tekście {occurrences} razy.")
 print(f'In range <6,12>? {result}')
+
+
+
+
+
+def f(tekst,litera):
+    result = 0
+    for znak in tekst:
+        if znak == litera:
+            result += 1
+    return result
+
+print(f('teeekst',"e"))
+
+def n(x,y,n):
+    if x<n<y:
+        result = "yes"
+    else:
+        result = "no"
+    return result
+
+print(n(2,15,7))

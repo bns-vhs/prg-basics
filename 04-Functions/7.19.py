@@ -35,4 +35,4 @@ def nwm(numberek):
     return result
 
 
-print(nwm("230335"))
+print(nwm(513553007))

@@ -19,4 +19,11 @@ def ascii(sentence):
         return False
 
 print(ascii('hello world'))
-    
+
+
+
+
+def hide(card_number):
+    return card_number[:2] + 10 * '*' + card_number[-4:]
+
+print(hide('5290312400019022'))
