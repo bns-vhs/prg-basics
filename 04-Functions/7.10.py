@@ -1,13 +1,13 @@
 def f(x,y):
     rang = 0
     for char in range(x,y+1):
-        if char < 0 and not char %2 != 0:
+        if char < 0 and char %2 == 0:
             rang += 1
     return rang
 
 
 
-print(f(-1,11))
+print(f(-7,8))
 
 
 def liczydlo(a,b):
@@ -17,4 +17,4 @@ def liczydlo(a,b):
             rezultat += 1
     return rezultat
 
-print(liczydlo(-7,8))
+print(liczydlo(-1,11))
